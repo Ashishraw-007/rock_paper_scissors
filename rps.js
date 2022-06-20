@@ -39,6 +39,6 @@ function result(userChoice, compChoice){
 
 let submitBtn = document.querySelector('button');
 
-submitBtn.addEventListener('click',=>{
+submitBtn.addEventListener('click',()=>{
     
 })
