@@ -11,7 +11,9 @@ else if(choice == 'scissors')
     choiceInt=3;
 
 function compInput(){
-    return Math.floor(Math.random() * (4-1)+1);
+    let compChoice = Math.floor(Math.random() * (4-1)+1);
+    console.log("cmputer choice- "+compChoice);
+    return compChoice;
 }
 
 function result(userChoice, compChoice){
@@ -40,5 +42,5 @@ function result(userChoice, compChoice){
 let submitBtn = document.querySelector('button');
 
 submitBtn.addEventListener('click',()=>{
-    
+    console.log(result(choiceInt,compInput())); 
 })
