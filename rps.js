@@ -1,6 +1,6 @@
-let choice = document.querySelector('input');
+let choice = document.querySelector('input').innerText;
 
-choice = choice.toLowerCase();
+choice = choice.toLowerCase;
 
 let choiceInt;
 if(choice == 'rock')
