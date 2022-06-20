@@ -10,3 +10,7 @@ else if(choice == 'paper')
 else if(choice == 'scissors')
     choiceInt=3;
 
+function compInput(){
+    return Math.floor(Math.random() * (4-1)+1);
+}
+
