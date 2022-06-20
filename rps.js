@@ -36,3 +36,9 @@ function result(userChoice, compChoice){
             return "User wins! scissors beats paper";
     }
 }
+
+let submitBtn = document.querySelector('button');
+
+submitBtn.addEventListener('click',=>{
+    
+})
